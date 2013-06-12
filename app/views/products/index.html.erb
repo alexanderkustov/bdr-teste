@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>Producer</th>
+    <th>Customer</th>
     <th>Dt</th>
     <th>Desc</th>
     <th>Benefits it offers</th>
@@ -25,6 +26,7 @@
 <% @products.each do |product| %>
   <tr>
     <td><%= product.producer_id %></td>
+    <td><%= product.customer_id %></td>
     <td><%= product.dt %></td>
     <td><%= product.desc %></td>
     <td><%= product.benefits_it_offers %></td>

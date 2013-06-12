@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612120927) do
+ActiveRecord::Schema.define(:version => 20130612122807) do
 
   create_table "products", :force => true do |t|
     t.integer  "producer_id"
@@ -31,6 +31,7 @@ ActiveRecord::Schema.define(:version => 20130612120927) do
     t.string   "pp_link"
     t.datetime "created_at",          :null => false
     t.datetime "updated_at",          :null => false
+    t.integer  "customer_id"
   end
 
   create_table "roles", :force => true do |t|
