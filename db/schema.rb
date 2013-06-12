@@ -11,7 +11,27 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130612113606) do
+ActiveRecord::Schema.define(:version => 20130612120927) do
+
+  create_table "products", :force => true do |t|
+    t.integer  "producer_id"
+    t.string   "dt"
+    t.string   "desc"
+    t.string   "benefits_it_offers"
+    t.string   "estimated_rsp"
+    t.string   "l_price"
+    t.string   "benefits_to_clients"
+    t.string   "photos"
+    t.string   "videos"
+    t.string   "sr2l"
+    t.string   "refp_number"
+    t.string   "fixed_costs"
+    t.string   "gross_margin"
+    t.string   "bp_link"
+    t.string   "pp_link"
+    t.datetime "created_at",          :null => false
+    t.datetime "updated_at",          :null => false
+  end
 
   create_table "roles", :force => true do |t|
     t.string   "name"

@@ -1,4 +1,7 @@
 BdrApp::Application.routes.draw do
+  resources :products
+
+
   authenticated :user do
     root :to => 'home#index'
   end

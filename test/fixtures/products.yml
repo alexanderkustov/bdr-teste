@@ -1,0 +1,35 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  producer_id: 1
+  dt: MyString
+  desc: MyString
+  benefits_it_offers: MyString
+  estimated_rsp: MyString
+  l_price: MyString
+  benefits_to_clients: MyString
+  photos: MyString
+  videos: MyString
+  sr2l: MyString
+  refp_number: MyString
+  fixed_costs: 
+  gross_margin: 
+  bp_link: MyString
+  pp_link: 
+
+two:
+  producer_id: 1
+  dt: MyString
+  desc: MyString
+  benefits_it_offers: MyString
+  estimated_rsp: MyString
+  l_price: MyString
+  benefits_to_clients: MyString
+  photos: MyString
+  videos: MyString
+  sr2l: MyString
+  refp_number: MyString
+  fixed_costs: 
+  gross_margin: 
+  bp_link: MyString
+  pp_link: 
